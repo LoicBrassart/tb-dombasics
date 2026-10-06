@@ -1,5 +1,6 @@
-- Répliquer une galerie de personnages via manip de DOM
-  - Répliquer _un_ personnage via manip de DOM
+- Créer une galerie de personnages à partir d'une structure HTML donnée
+  - ✅ Répliquer un personnage via manip de DOM
+    - ✅ Répliquer _un_ personnage via manip de DOM
     - ✅ Analyser la structure d'un personnage
     - ✅ Lister les balises (noeuds) à reproduire
       - article
@@ -11,4 +12,6 @@
       document.createElement(tag)
     - ✅ Raccrocher les balises au DOM
     - ✅ Donner les attricuts/contenus à chaque balise
-  - Faire le step précédent plusieurs fois
+    - ✅ Faire le step précédent plusieurs fois
+      - ✅ Faire une boucle `for`
+  - Différencier chaque copie
