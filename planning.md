@@ -1,0 +1,14 @@
+- Répliquer une galerie de personnages via manip de DOM
+  - Répliquer _un_ personnage via manip de DOM
+    - ✅ Analyser la structure d'un personnage
+    - ✅ Lister les balises (noeuds) à reproduire
+      - article
+        - img
+        - img
+        - footer
+          - h3
+    - ✅ Recréer les noeuds pour chaque balise identifiée
+      document.createElement(tag)
+    - ✅ Raccrocher les balises au DOM
+    - ✅ Donner les attricuts/contenus à chaque balise
+  - Faire le step précédent plusieurs fois
