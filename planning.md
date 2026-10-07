@@ -19,3 +19,4 @@
     - Ajouter le nom du perso à créer en paramètre de la fonction
     - Créer un slug à partir du paramètre
     - Utiliser le nom et le slug dynamiques partout dans le code
+  - Créer les cards à partir de leur nom sans me répéter
