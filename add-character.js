@@ -1,6 +1,6 @@
-// On répète N fois (ici, 4 est arbitraire)
-for (let i = 0; i < 4; i++) {
-  // Je crée chaque balise identifiée
+function addCharacter(characterName) {
+  const characterSlug = characterName.toLowerCase().replace("'", "");
+
   const newCharacter = document.createElement("article");
   newCharacter.classList.add("character");
 
@@ -11,13 +11,13 @@ for (let i = 0; i < 4; i++) {
 
   const newPortrait = document.createElement("img");
   newPortrait.classList.add("figure");
-  newPortrait.src = "img/adventurers/amisandra/1-f.png";
+  newPortrait.src = "img/adventurers/" + characterSlug + "/1-f.png";
   newPortrait.alt = "";
 
   const newFooter = document.createElement("footer");
 
   const newCharName = document.createElement("h3");
-  newCharName.innerText = "A'misandra";
+  newCharName.innerText = characterName;
 
   newCharacter.appendChild(newBackground);
   newCharacter.appendChild(newPortrait);
@@ -27,4 +27,14 @@ for (let i = 0; i < 4; i++) {
 
   const gallery = document.querySelector("#gallery");
   gallery.appendChild(newCharacter);
+}
+
+const adventurers = ["A'misandra", "Lewto", "Nazuna", "Olber", "Zaldor"];
+
+for (let i = 0; i < adventurers.length; i++) {
+  addCharacter(adventurers[i]);
+}
+
+for (let adventurer of adventurers) {
+  addCharacter(adventurer);
 }

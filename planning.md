@@ -11,7 +11,11 @@
     - ✅ Recréer les noeuds pour chaque balise identifiée
       document.createElement(tag)
     - ✅ Raccrocher les balises au DOM
-    - ✅ Donner les attricuts/contenus à chaque balise
-    - ✅ Faire le step précédent plusieurs fois
-      - ✅ Faire une boucle `for`
+    - ✅ Donner les attributs/contenus à chaque balise
+  - ✅ Faire le step précédent plusieurs fois
+    - ✅ Faire une boucle `for`
   - Différencier chaque copie
+    - Wrapper le code dans une fonction
+    - Ajouter le nom du perso à créer en paramètre de la fonction
+    - Créer un slug à partir du paramètre
+    - Utiliser le nom et le slug dynamiques partout dans le code
