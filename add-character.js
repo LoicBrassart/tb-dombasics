@@ -38,3 +38,9 @@ for (let i = 0; i < adventurers.length; i++) {
 for (let adventurer of adventurers) {
   addCharacter(adventurer);
 }
+
+const buttonTag = document.querySelector("button");
+buttonTag.addEventListener("click", function () {
+  const inputTag = document.querySelector("input");
+  addCharacter(inputTag.value);
+});

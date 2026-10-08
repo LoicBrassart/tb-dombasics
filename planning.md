@@ -14,9 +14,15 @@
     - ✅ Donner les attributs/contenus à chaque balise
   - ✅ Faire le step précédent plusieurs fois
     - ✅ Faire une boucle `for`
-  - Différencier chaque copie
-    - Wrapper le code dans une fonction
-    - Ajouter le nom du perso à créer en paramètre de la fonction
-    - Créer un slug à partir du paramètre
-    - Utiliser le nom et le slug dynamiques partout dans le code
-  - Créer les cards à partir de leur nom sans me répéter
+  - ✅ Différencier chaque copie
+    - ✅ Wrapper le code dans une fonction
+    - ✅ Ajouter le nom du perso à créer en paramètre de la fonction
+    - ✅ Créer un slug à partir du paramètre
+    - ✅ Utiliser le nom et le slug dynamiques partout dans le code
+  - ✅ Créer les cards à partir de leur nom sans me répéter
+- Ajouter dynamiquement une card grâce à son nom
+  - (ignorer les erreurs de saisie et mauvais noms)
+  - [HTML] Ajouter un input pour le nom du perso et un bouton de validation
+  - reagir au clic
+  - recuperer le nom de perso à créer
+  - creer un element html
